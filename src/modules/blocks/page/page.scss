@@ -7,5 +7,6 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   color: #000;
-  background-color: #fff;
+  background-color: $backgroundColor;
+  min-width: 320px;
 }
