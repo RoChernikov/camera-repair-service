@@ -1,0 +1,10 @@
+$className: 'form__caption';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #47474c;
+  margin-top: 12px;
+  margin-left: 10px;
+}

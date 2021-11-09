@@ -1,0 +1,8 @@
+$className: 'header__subtitle';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: 80px;
+  line-height: 0.9;
+  margin-top: 20px;
+}

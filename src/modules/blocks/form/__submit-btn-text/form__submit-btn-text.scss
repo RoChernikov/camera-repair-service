@@ -1,0 +1,9 @@
+$className: 'form__submit-btn-text';
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: $primaryFontColor;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.4px;
+}

@@ -1,0 +1,18 @@
+$className: 'company__plate';
+
+.#{$className} {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $primaryFont;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: lowercase;
+  color: #000;
+  background-color: #25e197;
+  width: 99px;
+  height: 20px;
+  border-radius: 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
