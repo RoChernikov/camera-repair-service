@@ -1,0 +1,8 @@
+$className: 'form';
+
+.#{$className} {
+  max-width: 569px;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  margin-top: 228px;
+}

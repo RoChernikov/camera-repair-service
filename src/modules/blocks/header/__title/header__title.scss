@@ -1,0 +1,9 @@
+$className: 'header__title';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: 112px;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 60px;
+}
