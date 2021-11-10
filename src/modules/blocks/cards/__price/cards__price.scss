@@ -1,0 +1,9 @@
+$className: 'cards__price';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: 14px;
+  line-height: 1;
+  color: $accentColor;
+  margin-top: 40px;
+}

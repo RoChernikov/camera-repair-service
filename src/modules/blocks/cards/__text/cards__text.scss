@@ -1,0 +1,9 @@
+$className: 'cards__text';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: $primaryFontSize;
+  line-height: $primaryLineHeight;
+  color: $secondaryFontColor;
+  margin-top: 40px;
+}

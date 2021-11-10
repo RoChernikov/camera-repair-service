@@ -1,0 +1,10 @@
+$className: 'cards__title';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: $primaryFontSize;
+  font-weight: 400;
+  line-height: 1;
+  color: $primaryFontColor;
+  margin-top: 20px;
+}
