@@ -1,4 +1,7 @@
 $className: 'footer';
 
 .#{$className} {
+  display: grid;
+  justify-items: start;
+  row-gap: 84px;
 }
