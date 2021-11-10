@@ -27,7 +27,7 @@
 @import '../modules/blocks/content/content.scss';
 @import '../modules/blocks/content/__section/content__section.scss';
 @import '../modules/blocks/content/__section/_place/content__section_place_gallery.scss';
-//--+++Gallery+++--
+//--+++gallery+++--
 @import '../modules/blocks/gallery/gallery.scss';
 @import '../modules/blocks/gallery/__upper-row/gallery__upper-row.scss';
 @import '../modules/blocks/gallery/__lower-row/gallery__lower-row.scss';
@@ -35,7 +35,9 @@
 @import '../modules/blocks/gallery/__figure/gallery__figure.scss';
 @import '../modules/blocks/gallery/__figure/_place/gallery__figure_place_upper-row.scss';
 @import '../modules/blocks/gallery/__figure/_place/gallery__figure_place_lower-row.scss';
+//--+++description+++--
 @import '../modules/blocks/description/description.scss';
+@import '../modules/blocks/description/__text/description__text.scss';
 @import '../modules/blocks/services/services.scss';
 @import '../modules/blocks/warranty/warranty.scss';
 @import '../modules/blocks/donate/donate.scss';
