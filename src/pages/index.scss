@@ -8,6 +8,7 @@
 @import '../modules/blocks/page/__section/page__section.scss';
 @import '../modules/blocks/page/__section/_place/page__section_place_header.scss';
 @import '../modules/blocks/page-text/page-text.scss';
+@import '../modules/blocks/page-list/page-list.scss';
 //--+++Шапка сайта+++--
 @import '../modules/blocks/header/header.scss';
 @import '../modules/blocks/header/__title/header__title.scss';
@@ -24,7 +25,16 @@
 @import '../modules/blocks/form/__caption/form__caption.scss';
 //--+++Основная часть сайта+++--
 @import '../modules/blocks/content/content.scss';
+@import '../modules/blocks/content/__section/content__section.scss';
+@import '../modules/blocks/content/__section/_place/content__section_place_gallery.scss';
+//--+++Gallery+++--
 @import '../modules/blocks/gallery/gallery.scss';
+@import '../modules/blocks/gallery/__upper-row/gallery__upper-row.scss';
+@import '../modules/blocks/gallery/__lower-row/gallery__lower-row.scss';
+@import '../modules/blocks/gallery/__image/gallery__image.scss';
+@import '../modules/blocks/gallery/__figure/gallery__figure.scss';
+@import '../modules/blocks/gallery/__figure/_place/gallery__figure_place_upper-row.scss';
+@import '../modules/blocks/gallery/__figure/_place/gallery__figure_place_lower-row.scss';
 @import '../modules/blocks/description/description.scss';
 @import '../modules/blocks/services/services.scss';
 @import '../modules/blocks/warranty/warranty.scss';
