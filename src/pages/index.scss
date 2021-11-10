@@ -7,6 +7,7 @@
 @import '../modules/blocks/page/page.scss';
 @import '../modules/blocks/page/__section/page__section.scss';
 @import '../modules/blocks/page/__section/_place/page__section_place_header.scss';
+@import '../modules/blocks/page/__section/_place/page__section_place_footer.scss';
 @import '../modules/blocks/page-text/page-text.scss';
 @import '../modules/blocks/page-list/page-list.scss';
 @import '../modules/blocks/section-title/section-title.scss';
@@ -16,14 +17,17 @@
 @import '../modules/blocks/header/__subtitle/header__subtitle.scss';
 //--+++Company+++--
 @import '../modules/blocks/company/company.scss';
+@import '../modules/blocks/company/_place/company_place_footer.scss';
 @import '../modules/blocks/company/__logo/company__logo.scss';
 @import '../modules/blocks/company/__plate/company__plate.scss';
 //--+++Форма+++--
 @import '../modules/blocks/form/form.scss';
+@import '../modules/blocks/form/_place/form_place_footer.scss';
 @import '../modules/blocks/form/__input/form__input.scss';
 @import '../modules/blocks/form/__submit-btn/form__submit-btn.scss';
 @import '../modules/blocks/form/__submit-btn-text/form__submit-btn-text.scss';
 @import '../modules/blocks/form/__caption/form__caption.scss';
+@import '../modules/blocks/form/__caption/_place/form__caption_place_footer.scss';
 //--+++Основная часть сайта+++--
 @import '../modules/blocks/content/content.scss';
 @import '../modules/blocks/content/__section/content__section.scss';
