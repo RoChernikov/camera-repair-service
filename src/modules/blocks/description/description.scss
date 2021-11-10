@@ -1,5 +1,6 @@
 $className: 'description';
 
 .#{$className} {
-  padding: 120px 0 60px;
+  padding-top: $primaryIndent;
+  padding-bottom: $secondaryIndent;
 }

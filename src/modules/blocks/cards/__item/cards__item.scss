@@ -1,0 +1,10 @@
+$className: 'cards__item';
+
+.#{$className} {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 40px;
+  background-color: $lightAccentColor;
+  border-radius: 16px;
+}

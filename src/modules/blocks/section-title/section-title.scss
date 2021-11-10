@@ -1,0 +1,8 @@
+$className: 'section-title';
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: $primaryFontColor;
+  font-size: $primaryFontSize;
+  line-height: $primaryLineHeight;
+}
