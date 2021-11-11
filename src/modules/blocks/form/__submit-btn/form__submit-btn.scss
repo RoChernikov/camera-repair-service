@@ -16,3 +16,7 @@ $className: 'form__submit-btn';
     opacity: 0.7;
   }
 }
+
+@include breakPoint($className, $smallMobile) {
+  width: 51px;
+}

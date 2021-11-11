@@ -1,5 +1,13 @@
 $className: 'page__section_place_header';
 
 .#{$className} {
-  padding-bottom: 120px;
+  padding-bottom: $primaryIndent;
+}
+
+@include breakPoint($className, $smallDesktop) {
+  padding-bottom: 52px;
+}
+
+@include breakPoint($className, $smallDesktop) {
+  padding-bottom: 40px;
 }
