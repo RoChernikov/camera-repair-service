@@ -14,3 +14,7 @@ $className: 'form__input';
     background-color: rgba($color: #8e8e98, $alpha: 0.3);
   }
 }
+
+@include breakPoint($className, $tablet) {
+  width: 100%;
+}

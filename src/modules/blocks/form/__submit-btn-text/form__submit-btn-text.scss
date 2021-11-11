@@ -7,3 +7,7 @@ $className: 'form__submit-btn-text';
   line-height: 1.7;
   letter-spacing: 0.38px;
 }
+
+@include breakPoint($className, $smallMobile) {
+  display: none;
+}

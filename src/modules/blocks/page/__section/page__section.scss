@@ -6,3 +6,11 @@ $className: 'page__section';
   margin: 0 auto;
   padding: $secondaryIndent 0;
 }
+
+@include breakPoint($className, $smallDesktop) {
+  padding: $secondaryIndent $secondaryIndent;
+}
+
+@include breakPoint($className, $mobile) {
+  padding: 25px 20px;
+}

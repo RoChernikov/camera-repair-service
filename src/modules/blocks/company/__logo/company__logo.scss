@@ -6,3 +6,8 @@ $className: 'company__logo';
   line-height: 1.4;
   margin-right: 20px;
 }
+
+@include breakPoint($className, $mobile) {
+  font-size: 20px;
+  margin-right: 16px;
+}
