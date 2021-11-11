@@ -1,9 +1,9 @@
-$className: 'section-title';
+$className: 'donate__text';
 
 .#{$className} {
   font-family: $primaryFont;
-  color: $primaryFontColor;
+  color: $secondaryFontColor;
   font-size: $primaryFontSize;
   line-height: $primaryLineHeight;
-  font-weight: 400;
+  margin-top: 50px;
 }
