@@ -1,0 +1,5 @@
+$className: 'warranty__cards';
+
+.#{$className} {
+  grid-template-columns: repeat(4, 1fr);
+}

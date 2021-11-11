@@ -48,12 +48,19 @@
 @import '../modules/blocks/services/__title/services__title.scss';
 //--+++cards+++--
 @import '../modules/blocks/cards/cards.scss';
-@import '../modules/blocks/cards/__item/cards__item.scss';
-@import '../modules/blocks/cards/__tag/cards__tag.scss';
-@import '../modules/blocks/cards/__title/cards__title.scss';
-@import '../modules/blocks/cards/__text/cards__text.scss';
-@import '../modules/blocks/cards/__price/cards__price.scss';
+@import '../modules/blocks/card/card.scss';
+@import '../modules/blocks/card/__tag/card__tag.scss';
+@import '../modules/blocks/card/__title/card__title.scss';
+@import '../modules/blocks/card/__text/card__text.scss';
+@import '../modules/blocks/card/__price/card__price.scss';
+//--+++warranty+++--
 @import '../modules/blocks/warranty/warranty.scss';
+@import '../modules/blocks/warranty/__title/warranty__title.scss';
+@import '../modules/blocks/warranty/__cards/warranty__cards.scss';
+@import '../modules/blocks/warranty/__card/warranty__card.scss';
+@import '../modules/blocks/warranty/__card-title/warranty__card-title.scss';
+@import '../modules/blocks/warranty/__card-text/warranty__card-text.scss';
+//--+++donate+++--
 @import '../modules/blocks/donate/donate.scss';
 
 //--+++Подвал сайта+++--
