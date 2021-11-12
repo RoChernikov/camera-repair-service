@@ -4,10 +4,10 @@ $className: 'page__section_place_header';
   padding-bottom: $primaryIndent;
 }
 
-@include breakPoint($className, $smallDesktop) {
+@include breakPoint($className, $tablet) {
   padding-bottom: 52px;
 }
 
-@include breakPoint($className, $smallDesktop) {
+@include breakPoint($className, $mobile) {
   padding-bottom: 40px;
 }
