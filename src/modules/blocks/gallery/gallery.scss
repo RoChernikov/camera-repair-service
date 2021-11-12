@@ -1,4 +1,13 @@
 $className: 'gallery';
 
 .#{$className} {
+  padding: 0 30px;
+}
+
+@include breakPoint($className, $smallDesktop) {
+  padding: 0 $secondaryIndent;
+}
+
+@include breakPoint($className, $mobile) {
+  padding: 0 20px;
 }

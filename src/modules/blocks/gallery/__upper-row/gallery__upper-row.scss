@@ -5,3 +5,8 @@ $className: 'gallery__upper-row';
   grid-template-columns: 448px 1fr;
   gap: 20px;
 }
+
+@include breakPoint($className, $mobile) {
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 0.9fr;
+}
