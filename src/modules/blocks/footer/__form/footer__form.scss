@@ -1,0 +1,11 @@
+$className: 'footer__form';
+
+.#{$className} {
+  max-width: 569px;
+  margin-top: 84px;
+  grid-row: 2;
+}
+
+@include breakPoint($className, $smallMobile) {
+  margin-top: 184px;
+}

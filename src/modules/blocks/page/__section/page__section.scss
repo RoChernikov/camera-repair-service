@@ -8,7 +8,7 @@ $className: 'page__section';
 }
 
 @include breakPoint($className, $smallDesktop) {
-  padding: $secondaryIndent $secondaryIndent;
+  padding: $secondaryIndent;
 }
 
 @include breakPoint($className, $mobile) {

@@ -2,6 +2,9 @@ $className: 'footer';
 
 .#{$className} {
   display: grid;
-  justify-items: start;
-  row-gap: 84px;
+  padding-bottom: $secondaryIndent;
+}
+
+@include breakPoint($className, $mobile) {
+  padding-bottom: 20px;
 }

@@ -15,6 +15,7 @@
 @import '../modules/blocks/header/header.scss';
 @import '../modules/blocks/header/__title/header__title.scss';
 @import '../modules/blocks/header/__subtitle/header__subtitle.scss';
+@import '../modules/blocks/header/__form/header__form.scss';
 //--+++Company+++--
 @import '../modules/blocks/company/company.scss';
 @import '../modules/blocks/company/_place/company_place_footer.scss';
@@ -22,12 +23,10 @@
 @import '../modules/blocks/company/__plate/company__plate.scss';
 //--+++Форма+++--
 @import '../modules/blocks/form/form.scss';
-@import '../modules/blocks/form/_place/form_place_footer.scss';
 @import '../modules/blocks/form/__input/form__input.scss';
 @import '../modules/blocks/form/__submit-btn/form__submit-btn.scss';
 @import '../modules/blocks/form/__submit-btn-text/form__submit-btn-text.scss';
 @import '../modules/blocks/form/__caption/form__caption.scss';
-@import '../modules/blocks/form/__caption/_place/form__caption_place_footer.scss';
 //--+++Основная часть сайта+++--
 @import '../modules/blocks/content/__section/content__section.scss';
 @import '../modules/blocks/content/__section/_place/content__section_place_gallery.scss';
@@ -67,4 +66,6 @@
 
 //--+++Подвал сайта+++--
 @import '../modules/blocks/footer/footer.scss';
+@import '../modules/blocks/footer/__form/footer__form.scss';
+@import '../modules/blocks/footer//__form-caption/footer__form-caption.scss';
 @import '../modules/blocks/footer/__copyright/footer__copyright.scss';
