@@ -6,3 +6,12 @@ $className: 'description__text';
   font-size: $primaryFontSize;
   line-height: $primaryLineHeight;
 }
+
+@include breakPoint($className, $tablet) {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@include breakPoint($className, $smallMobile) {
+  font-size: 12px;
+}

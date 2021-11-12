@@ -4,3 +4,8 @@ $className: 'description';
   padding-top: $primaryIndent;
   padding-bottom: $secondaryIndent;
 }
+
+@include breakPoint($className, $tablet) {
+  padding-top: $secondaryIndent;
+  padding-bottom: 20px;
+}
