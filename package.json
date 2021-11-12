@@ -1,5 +1,5 @@
 {
-  "name": "mesto",
+  "name": "camera repair service",
   "version": "0.0.1",
   "description": "",
   "private": true,
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RoChernikov/mesto.git"
+    "url": "git+https://github.com/RoChernikov/camera-repair-service"
   },
   "author": "Rodion Chernikov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RoChernikov/mesto/issues"
+    "url": "https://github.com/RoChernikov/camera-repair-service/issues"
   },
-  "homepage": "https://github.com/RoChernikov/mesto#readme",
+  "homepage": "https://github.com/RoChernikov/camera-repair-service#readme",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
