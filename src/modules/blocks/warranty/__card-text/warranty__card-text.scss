@@ -7,3 +7,9 @@ $className: 'warranty__card-text';
   color: $secondaryFontColor;
   margin-top: 38px;
 }
+
+@include breakPoint($className, $smallMobile) {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 36px;
+}

@@ -4,3 +4,7 @@ $className: 'warranty__card';
   padding: 20px;
   border-radius: 10px;
 }
+
+@include breakPoint($className, $smallMobile) {
+  min-height: 148px;
+}
