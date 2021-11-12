@@ -14,3 +14,7 @@ $className: 'card';
     background-color: #232327;
   }
 }
+
+@include breakPoint($className, $smallMobile) {
+  padding: 20px;
+}
