@@ -7,3 +7,12 @@ $className: 'section-title';
   line-height: $primaryLineHeight;
   font-weight: 400;
 }
+
+@include breakPoint($className, $tablet) {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@include breakPoint($className, $smallMobile) {
+  font-size: 12px;
+}

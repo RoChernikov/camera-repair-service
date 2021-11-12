@@ -7,3 +7,9 @@ $className: 'card__text';
   color: $secondaryFontColor;
   margin-top: 40px;
 }
+
+@include breakPoint($className, $smallMobile) {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 28px;
+}
