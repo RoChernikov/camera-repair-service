@@ -1,0 +1,10 @@
+$className: 'footer';
+
+.#{$className} {
+  display: grid;
+  padding-bottom: $secondaryIndent;
+}
+
+@include breakPoint($className, $mobile) {
+  padding-bottom: 20px;
+}

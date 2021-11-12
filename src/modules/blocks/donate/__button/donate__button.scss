@@ -1,0 +1,30 @@
+$className: 'donate__button';
+
+.#{$className} {
+  font-family: $primaryFont;
+  color: $primaryFontColor;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.92px;
+  width: 306px;
+  height: 50px;
+  border: none;
+  background-color: #47474c;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  transition: all 0.5s;
+  cursor: pointer;
+  @include reset;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+@include breakPoint($className, $smallMobile) {
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}

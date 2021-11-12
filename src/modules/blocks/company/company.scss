@@ -1,0 +1,11 @@
+$className: 'company';
+
+.#{$className} {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+@include breakPoint($className, $smallDesktop) {
+  margin-left: 0;
+}

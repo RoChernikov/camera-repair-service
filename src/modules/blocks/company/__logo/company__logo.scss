@@ -1,0 +1,13 @@
+$className: 'company__logo';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: 22px;
+  line-height: 1.4;
+  margin-right: 20px;
+}
+
+@include breakPoint($className, $mobile) {
+  font-size: 20px;
+  margin-right: 16px;
+}

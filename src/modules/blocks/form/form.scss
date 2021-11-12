@@ -1,0 +1,11 @@
+$className: 'form';
+
+.#{$className} {
+  max-width: 569px;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+
+@include breakPoint($className, $tablet) {
+  max-width: 648px;
+}

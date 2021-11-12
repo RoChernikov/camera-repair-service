@@ -1,0 +1,13 @@
+$className: 'page__section_place_header';
+
+.#{$className} {
+  padding-bottom: $primaryIndent;
+}
+
+@include breakPoint($className, $tablet) {
+  padding-bottom: 52px;
+}
+
+@include breakPoint($className, $mobile) {
+  padding-bottom: 40px;
+}

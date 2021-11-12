@@ -1,0 +1,20 @@
+$className: 'form__input';
+
+.#{$className} {
+  width: 348px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  background-color: rgba($color: #8e8e98, $alpha: 0.2);
+  border-radius: 8px 0 0 8px;
+  transition: background-color 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba($color: #8e8e98, $alpha: 0.3);
+  }
+}
+
+@include breakPoint($className, $tablet) {
+  width: 100%;
+}

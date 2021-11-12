@@ -1,0 +1,24 @@
+$className: 'footer__copyright';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #47474c;
+  grid-column: 2;
+  grid-row: 2;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+@include breakPoint($className, $tablet) {
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: flex-start;
+  margin-top: $secondaryIndent;
+}
+
+@include breakPoint($className, $mobile) {
+  margin-top: 40px;
+}

@@ -1,0 +1,11 @@
+$className: 'description';
+
+.#{$className} {
+  padding-top: $primaryIndent;
+  padding-bottom: $secondaryIndent;
+}
+
+@include breakPoint($className, $mobile) {
+  padding-top: $secondaryIndent;
+  padding-bottom: 20px;
+}

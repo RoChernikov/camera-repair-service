@@ -1,0 +1,17 @@
+$className: 'gallery__lower-row';
+
+.#{$className} {
+  display: grid;
+  grid-template-columns: 1fr 730px;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+@include breakPoint($className, $tablet) {
+  grid-template-columns: 1fr 455px;
+}
+
+@include breakPoint($className, $mobile) {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.2fr 2fr;
+}

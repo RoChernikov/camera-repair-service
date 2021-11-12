@@ -1,0 +1,71 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+//--+++Переменные+++--
+@import '../modules/veriables.scss';
+//--+++Миксины+++--
+@import '../modules/mixins.scss';
+@import '../modules/blocks/page/page.scss';
+@import '../modules/blocks/page/__section/page__section.scss';
+@import '../modules/blocks/page/__section/_place/page__section_place_header.scss';
+@import '../modules/blocks/page/__section/_place/page__section_place_footer.scss';
+@import '../modules/blocks/page-text/page-text.scss';
+@import '../modules/blocks/page-list/page-list.scss';
+@import '../modules/blocks/section-title/section-title.scss';
+//--+++Шапка сайта+++--
+@import '../modules/blocks/header/header.scss';
+@import '../modules/blocks/header/__title/header__title.scss';
+@import '../modules/blocks/header/__subtitle/header__subtitle.scss';
+@import '../modules/blocks/header/__form/header__form.scss';
+//--+++Company+++--
+@import '../modules/blocks/company/company.scss';
+@import '../modules/blocks/company/_place/company_place_footer.scss';
+@import '../modules/blocks/company/__logo/company__logo.scss';
+@import '../modules/blocks/company/__plate/company__plate.scss';
+//--+++Форма+++--
+@import '../modules/blocks/form/form.scss';
+@import '../modules/blocks/form/__input/form__input.scss';
+@import '../modules/blocks/form/__submit-btn/form__submit-btn.scss';
+@import '../modules/blocks/form/__submit-btn-text/form__submit-btn-text.scss';
+@import '../modules/blocks/form/__caption/form__caption.scss';
+//--+++Основная часть сайта+++--
+@import '../modules/blocks/content/__section/content__section.scss';
+@import '../modules/blocks/content/__section/_place/content__section_place_gallery.scss';
+//--+++gallery+++--
+@import '../modules/blocks/gallery/gallery.scss';
+@import '../modules/blocks/gallery/__upper-row/gallery__upper-row.scss';
+@import '../modules/blocks/gallery/__lower-row/gallery__lower-row.scss';
+@import '../modules/blocks/gallery/__image/gallery__image.scss';
+@import '../modules/blocks/gallery/__figure/gallery__figure.scss';
+@import '../modules/blocks/gallery/__figure/_place/gallery__figure_place_upper-row.scss';
+@import '../modules/blocks/gallery/__figure/_place/gallery__figure_place_lower-row.scss';
+//--+++description+++--
+@import '../modules/blocks/description/description.scss';
+@import '../modules/blocks/description/__text/description__text.scss';
+//--+++services+++--
+@import '../modules/blocks/services/services.scss';
+@import '../modules/blocks/services/__title/services__title.scss';
+//--+++cards+++--
+@import '../modules/blocks/cards/cards.scss';
+@import '../modules/blocks/card/card.scss';
+@import '../modules/blocks/card/__tag/card__tag.scss';
+@import '../modules/blocks/card/__title/card__title.scss';
+@import '../modules/blocks/card/__text/card__text.scss';
+@import '../modules/blocks/card/__price/card__price.scss';
+//--+++warranty+++--
+@import '../modules/blocks/warranty/warranty.scss';
+@import '../modules/blocks/warranty/__title/warranty__title.scss';
+@import '../modules/blocks/warranty/__cards/warranty__cards.scss';
+@import '../modules/blocks/warranty/__card/warranty__card.scss';
+@import '../modules/blocks/warranty/__card-title/warranty__card-title.scss';
+@import '../modules/blocks/warranty/__card-text/warranty__card-text.scss';
+//--+++donate+++--
+@import '../modules/blocks/donate/donate.scss';
+@import '../modules/blocks/donate/__title/donate__title.scss';
+@import '../modules/blocks/donate/__button/donate__button.scss';
+@import '../modules/blocks/donate/__text/donate__text.scss';
+
+//--+++Подвал сайта+++--
+@import '../modules/blocks/footer/footer.scss';
+@import '../modules/blocks/footer/__form/footer__form.scss';
+@import '../modules/blocks/footer//__form-caption/footer__form-caption.scss';
+@import '../modules/blocks/footer/__copyright/footer__copyright.scss';

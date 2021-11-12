@@ -1,0 +1,10 @@
+$className: 'warranty__card-title';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: $primaryFontColor;
+  margin: 0;
+}

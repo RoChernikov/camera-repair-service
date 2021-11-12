@@ -1,0 +1,10 @@
+$className: 'footer__form-caption';
+
+.#{$className} {
+  margin-top: 18px;
+  margin-left: 0;
+}
+
+@include breakPoint($className, $smallMobile) {
+  margin-top: 10px;
+}

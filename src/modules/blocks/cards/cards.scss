@@ -1,0 +1,11 @@
+$className: 'cards';
+
+.#{$className} {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@include breakPoint($className, $tablet) {
+  grid-template-columns: 1fr;
+}

@@ -1,0 +1,12 @@
+$className: 'content__section';
+
+.#{$className} {
+  max-width: 1240px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 $secondaryIndent;
+}
+
+@include breakPoint($className, $mobile) {
+  padding: 0 20px;
+}

@@ -1,0 +1,13 @@
+$className: 'donate__title';
+
+.#{$className} {
+  margin-bottom: 90px;
+}
+
+@include breakPoint($className, $tablet) {
+  margin-bottom: 80px;
+}
+
+@include breakPoint($className, $smallMobile) {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,13 @@
+$className: 'donate';
+
+.#{$className} {
+  padding-bottom: 238px;
+}
+
+@include breakPoint($className, $tablet) {
+  padding-bottom: 208px;
+}
+
+@include breakPoint($className, $smallMobile) {
+  padding-bottom: 178px;
+}

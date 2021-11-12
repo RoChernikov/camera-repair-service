@@ -1,0 +1,9 @@
+$className: 'services__title';
+
+.#{$className} {
+  margin-bottom: $primaryIndent;
+}
+
+@include breakPoint($className, $mobile) {
+  margin-bottom: 70px;
+}

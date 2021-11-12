@@ -1,0 +1,11 @@
+$className: 'gallery__image';
+
+.#{$className} {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@include breakPoint($className, $smallMobile) {
+  border-radius: 4px;
+}

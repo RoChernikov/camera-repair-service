@@ -1,0 +1,8 @@
+$className: 'card__tag';
+
+.#{$className} {
+  font-family: $primaryFont;
+  font-size: 18px;
+  line-height: 1;
+  color: $secondaryFontColor;
+}

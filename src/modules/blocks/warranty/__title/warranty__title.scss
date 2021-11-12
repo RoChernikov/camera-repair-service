@@ -1,0 +1,9 @@
+$className: 'warranty__title';
+
+.#{$className} {
+  margin-bottom: 60px;
+}
+
+@include breakPoint($className, $smallMobile) {
+  margin-bottom: 40px;
+}

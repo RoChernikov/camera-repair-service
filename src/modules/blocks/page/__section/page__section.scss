@@ -1,0 +1,16 @@
+$className: 'page__section';
+
+.#{$className} {
+  max-width: 1120px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: $secondaryIndent 0;
+}
+
+@include breakPoint($className, $smallDesktop) {
+  padding: $secondaryIndent;
+}
+
+@include breakPoint($className, $mobile) {
+  padding: 25px 20px;
+}
