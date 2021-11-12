@@ -7,3 +7,15 @@ $className: 'donate__text';
   line-height: $primaryLineHeight;
   margin-top: 50px;
 }
+
+@include breakPoint($className, $tablet) {
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@include breakPoint($className, $smallMobile) {
+  margin-top: 30px;
+  font-size: 12px;
+  line-height: 1.5;
+}
