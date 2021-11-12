@@ -1,6 +1,7 @@
 $className: 'form__input';
 
 .#{$className} {
+  box-sizing: border-box;
   width: 348px;
   height: 50px;
   padding: 0;
@@ -9,6 +10,12 @@ $className: 'form__input';
   border-radius: 8px 0 0 8px;
   transition: background-color 0.5s;
   cursor: pointer;
+  font-family: $primaryFont;
+  font-size: 14px;
+  line-height: 1.7;
+  color: $primaryFontColor;
+  padding-left: 16px;
+  letter-spacing: 0.38px;
 
   &:hover {
     background-color: rgba($color: #8e8e98, $alpha: 0.3);
