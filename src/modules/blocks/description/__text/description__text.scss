@@ -2,7 +2,7 @@ $className: 'description__text';
 
 .#{$className} {
   font-family: $primaryFont;
-  color: $secondaryFontColor;
+  color: $primaryFontColor;
   font-size: $primaryFontSize;
   line-height: $primaryLineHeight;
 }

@@ -2,14 +2,14 @@ $className: 'donate__button';
 
 .#{$className} {
   font-family: $primaryFont;
-  color: $primaryFontColor;
+  color: $secondaryFontColor;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.92px;
   width: 306px;
   height: 50px;
   border: none;
-  background-color: #47474c;
+  background-color: $lightAccentColor;
   border-radius: 8px;
   font-size: 13px;
   line-height: 1.5;

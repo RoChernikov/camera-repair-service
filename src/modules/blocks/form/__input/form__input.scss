@@ -13,11 +13,16 @@ $className: 'form__input';
   font-family: $primaryFont;
   font-size: 14px;
   line-height: 1.7;
-  color: $primaryFontColor;
+  color: $secondaryFontColor;
   padding-left: 16px;
   letter-spacing: 0.38px;
 
   &:hover {
+    background-color: rgba($color: #8e8e98, $alpha: 0.3);
+  }
+
+  &:focus {
+    outline: none;
     background-color: rgba($color: #8e8e98, $alpha: 0.3);
   }
 }
