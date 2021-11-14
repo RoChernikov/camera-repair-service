@@ -2,6 +2,7 @@ $className: 'company__logo';
 
 .#{$className} {
   font-family: $primaryFont;
+  color: $secondaryFontColor;
   font-size: 22px;
   line-height: 1.4;
   margin-right: 20px;
