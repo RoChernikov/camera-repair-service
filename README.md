@@ -33,7 +33,7 @@
 ### Локальная установка:
 
 В командной строке перейдите в папку, где будет развернут проект. После чего скопируйте его с GitHub:
-`$ git clone git@github.com:RoChernikov/mesto-project.git`
+`$ git clone git@github.com:RoChernikov/camera-repair-service.git`
 
 Далее переходим в папку с проектом и устанавливаем компоненты:
 `$ npm install`
