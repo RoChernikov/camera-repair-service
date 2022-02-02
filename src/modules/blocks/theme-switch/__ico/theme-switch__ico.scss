@@ -1,0 +1,12 @@
+$className: 'theme-switch__ico';
+
+.#{$className} {
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+  opacity: var(--var-theme-switch-opacity);
+}
+
+@include breakPoint($className, $smallMobile) {
+  display: none;
+}

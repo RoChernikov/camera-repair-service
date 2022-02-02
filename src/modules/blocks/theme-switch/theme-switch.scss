@@ -1,0 +1,15 @@
+$className: 'theme-switch';
+
+.#{$className} {
+  position: relative;
+  width: 135px;
+  display: flex;
+  justify-content: space-between;
+  -webkit-tap-highlight-color: transparent;
+  justify-self: end;
+}
+
+@include breakPoint($className, $smallMobile) {
+  width: 44px;
+  top: -13px;
+}
