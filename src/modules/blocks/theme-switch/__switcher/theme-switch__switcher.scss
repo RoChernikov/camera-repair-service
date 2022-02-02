@@ -1,0 +1,20 @@
+$className: 'theme-switch__switcher';
+
+.#{$className} {
+  appearance: none;
+  position: absolute;
+  top: 0;
+
+  &:checked + .theme-switch__slider::after {
+    margin-left: 20px;
+  }
+}
+
+@include breakPoint(
+  'theme-switch__switcher:checked + .theme-switch__slider::after',
+  $smallMobile
+) {
+  background-color: #5036e7;
+  background-image: url(../images/dark-theme-mobile-ico.svg);
+  background-size: 70%;
+}
