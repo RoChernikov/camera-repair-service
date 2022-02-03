@@ -13,7 +13,7 @@ $className: 'form__input';
   font-family: $primaryFont;
   font-size: 14px;
   line-height: 1.7;
-  color: $secondaryFontColor;
+  color: var(--var-secondary-font-color);
   padding-left: 16px;
   letter-spacing: 0.38px;
 

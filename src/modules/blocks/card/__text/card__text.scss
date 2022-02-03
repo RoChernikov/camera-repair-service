@@ -4,7 +4,7 @@ $className: 'card__text';
   font-family: $primaryFont;
   font-size: $primaryFontSize;
   line-height: $primaryLineHeight;
-  color: $primaryFontColor;
+  color: var(--var-primary-font-color);
   margin-top: 40px;
 }
 

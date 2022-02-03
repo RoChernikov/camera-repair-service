@@ -2,7 +2,7 @@ $className: 'page__section_place_footer';
 
 .#{$className} {
   max-width: 1120px;
-  border-top: 2px solid #151515;
+  border-top: 2px solid var(--var-footer-border-color);
 }
 
 @include breakPoint($className, $smallDesktop) {

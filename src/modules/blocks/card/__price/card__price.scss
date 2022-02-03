@@ -4,7 +4,7 @@ $className: 'card__price';
   font-family: $primaryFont;
   font-size: 14px;
   line-height: 1;
-  color: $accentColor;
+  color: var(--var-price-color);
   margin-top: 40px;
 }
 
