@@ -1,1 +1,1 @@
-(()=>{"use strict";var o=[2,3,5].map((function(o){return 2*o}));console.log("It Works!"),console.log(o)})();
+(()=>{"use strict";document.querySelector("#theme-switcher").onclick=function(t){t.target.checked?document.body.setAttribute("light",""):document.body.removeAttribute("light","")}})();
