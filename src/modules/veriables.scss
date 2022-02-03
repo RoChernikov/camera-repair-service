@@ -2,47 +2,36 @@ $primaryFont: 'Roboto', Arial, sans-serif;
 
 //Тема
 :root {
-  --var-bg-color: #f4f4f4;
-  --var-primari-font-color: #222;
-  --var-secondary-font-color: #151515;
-  --var-footer-bg-color: #efefef;
-  --var-input-border-color: #c7c7c7;
-  --var-theme-switch-opacity: 100%;
-  --var-logo-opacity: 100%;
-  --var-theme-switch-bg-color: #fff;
-  --var-copyright-color: #cfcfcf;
-  --var--nav-btn-color: #ebebeb;
-  --var-btn-ico-color: #151515;
-  --var-selector-border-color: #e3e3e3;
-  --var-header-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  --var-primary-font-color: #8e8e98;
+  --var-secondary-font-color: #fff;
+  --var-bg-color: #000;
+  --var-light-accent-color: #47474c;
+  --var-accent-color: #25e197;
+  --var-card-color: #1c1c1e;
+  --var-hovered-card-color: #232327;
+  --var-btn-font-color: #fff;
+  --var-footer-border-color: #151515;
+  --var-theme-switch-border-color: #fff;
+  --var-price-color: #25e197;
+  --var-image-filter: invert(0);
 }
 
-[dark] {
-  --var-bg-color: #333333;
-  --var-primari-font-color: #e5e5e5;
-  --var-secondary-font-color: #fff;
-  --var-footer-bg-color: #2f2f2f;
-  --var-input-border-color: #7d7d7d;
-  --var-theme-switch-opacity: 35%;
-  --var-logo-opacity: 50%;
-  --var-theme-switch-bg-color: #545454;
-  --var-copyright-color: #565656;
-  --var--nav-btn-color: #434343;
-  --var-btn-ico-color: #fff;
-  --var-selector-border-color: #7d7d7d;
-  --var-header-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+[light] {
+  --var-primary-font-color: #272727;
+  --var-secondary-font-color: #000;
+  --var-bg-color: #fcfcfc;
+  --var-light-accent-color: #8b8a8a;
+  --var-accent-color: #25e197;
+  --var-card-color: #ffd233;
+  --var-hovered-card-color: #ffde65;
+  --var-btn-font-color: #fff;
+  --var-footer-border-color: #8b8a8a;
+  --var-theme-switch-border-color: #8b8a8a;
+  --var-price-color: #8b8a8a;
+  --var-image-filter: invert(10%);
 }
 
 $animationSpeed: all 0.3s ease;
-
-// Цвета
-$primaryFontColor: #8e8e98;
-$secondaryFontColor: #fff;
-$backgroundColor: #000;
-$lightAccentColor: #47474c;
-$accentColor: #25e197;
-$cardColor: #1c1c1e;
-$hoveredCardColor: #232327;
 
 // Размеры
 $primaryFontSize: 32px;

@@ -9,7 +9,7 @@ $className: 'company__plate';
   line-height: 1;
   text-transform: lowercase;
   color: #000;
-  background-color: $accentColor;
+  background-color: var(--var-accent-color);
   width: 99px;
   height: 20px;
   border-radius: 4px;

@@ -5,7 +5,7 @@ $className: 'card__title';
   font-size: $primaryFontSize;
   font-weight: 400;
   line-height: 1;
-  color: $secondaryFontColor;
+  color: var(--var-secondary-font-color);
   margin-top: 20px;
 }
 

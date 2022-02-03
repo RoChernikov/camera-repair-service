@@ -2,7 +2,7 @@ $className: 'donate__text';
 
 .#{$className} {
   font-family: $primaryFont;
-  color: $primaryFontColor;
+  color: var(--var-primary-font-color);
   font-size: $primaryFontSize;
   line-height: $primaryLineHeight;
   margin-top: 50px;

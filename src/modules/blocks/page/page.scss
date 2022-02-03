@@ -7,7 +7,8 @@ $className: 'page';
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  color: $primaryFontColor;
-  background-color: $backgroundColor;
+  color: var(--var-primary-font-color);
+  background-color: var(--var-bg-color);
   min-width: 320px;
+  transition: $animationSpeed;
 }

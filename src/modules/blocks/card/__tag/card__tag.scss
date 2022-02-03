@@ -4,5 +4,5 @@ $className: 'card__tag';
   font-family: $primaryFont;
   font-size: 18px;
   line-height: 1;
-  color: $primaryFontColor;
+  color: var(--var-primary-font-color);
 }

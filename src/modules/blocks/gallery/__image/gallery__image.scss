@@ -4,6 +4,7 @@ $className: 'gallery__image';
   border-radius: 10px;
   object-fit: cover;
   width: 100%;
+  filter: var(--var-image-filter);
 }
 
 @include breakPoint($className, $smallMobile) {

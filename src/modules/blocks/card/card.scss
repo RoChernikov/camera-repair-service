@@ -5,13 +5,13 @@ $className: 'card';
   flex-direction: column;
   box-sizing: border-box;
   padding: 40px;
-  background-color: $cardColor;
+  background-color: var(--var-card-color);
   border-radius: 16px;
   cursor: pointer;
   transition: all 0.5s;
 
   &:hover {
-    background-color: $hoveredCardColor;
+    background-color: var(--var-hovered-card-color);
   }
 }
 

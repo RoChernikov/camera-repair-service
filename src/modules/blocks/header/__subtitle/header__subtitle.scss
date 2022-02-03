@@ -2,7 +2,7 @@ $className: 'header__subtitle';
 
 .#{$className} {
   font-family: $primaryFont;
-  color: $secondaryFontColor;
+  color: var(--var-secondary-font-color);
   font-size: 80px;
   line-height: 0.9;
   margin-top: 20px;

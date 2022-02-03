@@ -1,5 +1,5 @@
 $className: 'gallery__figure_place_lower-row';
 
 .#{$className} {
-  background-color: $accentColor;
+  background-color: var(--var-accent-color);
 }

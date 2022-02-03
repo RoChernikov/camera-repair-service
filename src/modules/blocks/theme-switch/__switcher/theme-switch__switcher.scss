@@ -14,7 +14,7 @@ $className: 'theme-switch__switcher';
   'theme-switch__switcher:checked + .theme-switch__slider::after',
   $smallMobile
 ) {
-  background-color: #5036e7;
-  background-image: url(../images/dark-theme-mobile-ico.svg);
+  background-color: #ffd233;
+  background-image: url(../images/light-theme-mobile-ico.svg);
   background-size: 70%;
 }

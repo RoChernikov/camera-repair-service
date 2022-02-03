@@ -4,7 +4,7 @@ $className: 'form__caption';
   font-family: $primaryFont;
   font-size: 12px;
   line-height: 1.5;
-  color: $lightAccentColor;
+  color: var(--var-light-accent-color);
   margin-top: 12px;
   margin-left: 10px;
 }
