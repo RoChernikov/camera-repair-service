@@ -6,6 +6,12 @@
 
 [Открыть в браузере](http://rochernikov.github.io/camera-repair-service/)
 
+### Функционал:
+
+- Смена темы оформления
+
+<a  href="http://rochernikov.github.io/camera-repair-service/" target="_blank" align="center"><img src="./readme_src/demo.gif" width="100%" alt="Демо"></a>
+
 ### Технологии, использованные при создании:
 
 - Flexbox
